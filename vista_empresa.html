@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de Empresas</title>
+    <link rel="stylesheet" href="styles_empresa.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Bolsa de Trabajo</h1>
+        </div>
+        <div class="buttons">
+            <button id="postJobBtn">Publicar Vacante</button>
+        </div>
+    </header>
+
+    <section class="company-section">
+        <!-- Contenido específico para la sección de empresas -->
+        <h2>Área de Empresas</h2>
+        <!-- ... (otro contenido específico) ... -->
+    </section>
+
+    <div class="post-job-modal" id="postJobModal">
+        <div class="modal-content">
+            <span class="close-btn" id="closePostJobBtn">&times;</span>
+            <h2>Publicar Vacante</h2>
+            <form id="postJobForm">
+                <label for="jobTitle">Título de la vacante:</label>
+                <input type="text" id="jobTitle" name="jobTitle" required>
+
+                <label for="jobDescription">Descripción de la vacante:</label>
+                <textarea id="jobDescription" name="jobDescription" required></textarea>
+
+                <!-- Otros campos para la publicación de vacantes -->
+
+                <button type="button" onclick="submitJob()">Publicar Vacante</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

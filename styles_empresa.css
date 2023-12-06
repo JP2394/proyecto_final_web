@@ -1,0 +1,54 @@
+/* Estilos específicos para la página de empresas */
+/* Puedes personalizar según tus necesidades */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    flex: 1;
+}
+
+header .buttons {
+    display: flex;
+    gap: 1em;
+}
+
+.company-offers {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.company-offers h2 {
+    color: #333;
+}
+
+.job-offer {
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.apply-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
