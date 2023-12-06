@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolsa de Trabajo</title>
+    <link rel="stylesheet" href="styles_main.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Bolsa de Trabajo</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar ofertas de trabajo...">
+            <button id="searchBtn">Buscar</button>
+        </div>
+        <div class="buttons">
+            <button id="candidateLoginBtn">Acceso Candidatos</button>
+            <button id="companyLoginBtn">Acceso Empresas</button>
+        </div>
+    </header>
+
+    <section class="search-vacancies">
+        <h2>Buscar Vacantes</h2>
+        <div class="vacancy-search-bar">
+            <input type="text" id="vacancySearchInput" placeholder="Buscar vacantes por título..." style="width: 80%;">
+            <button id="vacancySearchBtn">Buscar</button>
+        </div>
+    </section>
+
+    <section class="job-offers">
+        <h2>Ofertas de Empleo</h2>
+
+        <!-- Ejemplo de oferta de trabajo -->
+        <div class="job-offer">
+            <h3>Desarrollador Web Frontend</h3>
+            <p>Descripción del puesto: Estamos buscando un desarrollador web frontend con experiencia en HTML, CSS y JavaScript para unirse a nuestro equipo.</p>
+            <button class="apply-btn">Aplicar</button>
+        </div>
+
+        <!-- Otros ejemplos de ofertas de trabajo -->
+        <div class="job-offer">
+            <h3>Analista de Datos</h3>
+            <p>Descripción del puesto: Buscamos un analista de datos con habilidades en análisis estadístico y conocimientos en herramientas como Python y SQL.</p>
+            <button class="apply-btn">Aplicar</button>
+        </div>
+
+        <div class="job-offer">
+            <h3>Gerente de Proyecto</h3>
+            <p>Descripción del puesto: Estamos en busca de un gerente de proyecto con experiencia en liderar equipos y gestionar proyectos complejos.</p>
+            <button class="apply-btn">Aplicar</button>
+        </div>
+
+        <div class="job-offer">
+            <h3>Asistente Administrativo</h3>
+            <p>Descripción del puesto: Buscamos un asistente administrativo con habilidades organizativas y experiencia en tareas administrativas generales.</p>
+            <button class="apply-btn">Aplicar</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
